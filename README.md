@@ -1,2 +1,2 @@
-# neurIFR
-test code in paper
+# NeurIPS-IFR
+Model inference stage code
