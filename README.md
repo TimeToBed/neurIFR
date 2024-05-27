@@ -21,4 +21,10 @@ The official link of ImageNet is [here](https://image-net.org/challenges/LSVRC/2
     python test.py
 ```
 
+## Trained model weights
+
+We provide trained model weights for IFO with a ResNet-12 network backbone. You can download these:
+- Download from Baidu Netdisk [Link](https://pan.baidu.com/s/11rbgsF8IhXfw8yjEjfwHXA?pwd=3icm) and extraction code 3icm
+
+
 Our work follow MIT License
