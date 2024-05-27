@@ -1,0 +1,23 @@
+model_params:
+  name: 'IFO'
+  pretrain: 'ckpt/mini_model.pkl' 
+
+
+data_params:
+  data_path: "/home/czd/Dataset/real_mini-ImageNet/" #CUB_200_2011 real_mini-ImageNet CUB_100_50_50(mini->cub) tiered_imagenet
+  test_scale: 0.76
+  num_workers: 16
+
+
+exp_params:
+
+  rotation: False #only use for training
+  is_MRR: True  
+  mode: proto
+  manual_seed: 1265
+  #+++++++++++不用动++++++++++++
+
+trainer_params:
+  gpus: [0]
+
+
