@@ -17,7 +17,7 @@ The official link of ImageNet-1K is [here](https://image-net.org/challenges/LSVR
 
 
 ## Test
-
+For all experiments results, we provide the inference process. To change the pre-trained weights and dataset paths, please configure in the config file. The config file path is `configs/baseline_proto.yaml`. Note that 'is_MRR' indicates whether to use the MRR method in inference.
 ```shell
     python test.py
 ```
