@@ -227,7 +227,7 @@ class TestAug:
             elif i == 2:
                 trans.append(trans_manage.get_test_trans(is_rcrop2=True))
             else:
-                assert False," 错咯错咯 i 超出范围"
+                assert False," please check index"
 
         self.trans = trans
 
@@ -258,7 +258,7 @@ class MyDataAug:
             elif i == 2:
                  trans.append(trans_manage.get_train_trans(crop_list))
             else:
-                assert False," 错咯错咯 i 超出范围"
+                assert False," please check index"
 
         self.trans = trans
 
