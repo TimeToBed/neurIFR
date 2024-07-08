@@ -3,7 +3,7 @@ import yaml
 import argparse
 #from models import *
 import torch
-from neurIFR.experiment import BSEXperiment
+from experiment import BSEXperiment
 from pytorch_lightning import Trainer
 from pytorch_lightning.loggers import TensorBoardLogger
 from fdataset import test_loader,test_loader2
